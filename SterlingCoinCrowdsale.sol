@@ -35,7 +35,7 @@ contract SterlingCoinSaleDeployer {
     address public tokenAddress;
     uint openingTime = now;
     uint closingTime = openingTime + 24 weeks;
-    uint goal = 5e18;
+    uint goal = 1e5;
     uint cap = goal * 10;
 
     constructor(
